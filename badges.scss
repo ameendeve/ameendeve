@@ -1,0 +1,173 @@
+/************************************************
+guidelines for badges
+*************************************************/
+.eand-badge {
+  display: inline-block;
+  font-weight: 800;
+  text-align: center;
+  span,p{
+    margin: 0px;
+  }
+  &.square-shap{
+    &.large{
+      padding: 0rem 0.625rem;
+      font-size: 0.75rem;
+      height: 1.75rem;
+      line-height: 1.75rem;
+      letter-spacing: 0.094rem;
+    }
+    &.medium{
+      padding: 0rem 0.5rem;
+      font-size: 0.625rem;
+      height: 1.75rem;
+      line-height: 1.75rem;
+      letter-spacing: 0.078rem;
+    }
+    &.small{
+      padding: 0rem 0.5rem;
+      font-size: 0.5rem;
+      height: 1.25rem;
+      line-height: 1.25rem;
+      letter-spacing: 0.063rem;
+    }
+  }
+  &.capsules-shap{
+    &.large{
+      padding: 0rem 0.625rem;
+      font-size: 0.75rem;
+      height: 1.5rem;
+      line-height: 1.5rem;
+      letter-spacing: 0.094rem;
+    }
+    &.medium{
+      padding: 0rem 0.5rem;
+      font-size: 0.625rem;
+      height: 1.75rem;
+      line-height: 1.75rem;
+      letter-spacing: 0.078rem;
+    }
+    &.small{
+      padding: 0rem 0.5rem;
+      font-size: 0.5rem;
+      height: 1.25rem;
+      line-height: 1.25rem;
+      letter-spacing: 0.063rem;
+    }
+  }
+
+  &.capsules-circle{
+    &.gr-eand-gradient-gold{
+      background: $gr-eand-gradient-gold-badge;
+    }
+    &.gr-eand-gradient-green-light-01{
+      background: $gr-eand-gradient-green-light-01-badge;
+    }
+    &.large{
+      padding: 0rem 0.625rem;
+      font-size: 0.75rem;
+      height: 1.5rem;
+      line-height: 1.5rem;
+      letter-spacing: 0.009rem;
+      border-radius: 1.063rem;
+    }
+    &.medium{
+      padding: 0rem 0.5rem;
+      font-size: 0.625rem;
+      height: 1.125rem;
+      line-height: 1.125rem;
+      letter-spacing: 0rem;
+      border-radius: 0.625rem;
+    }
+    &.small{
+      padding: 0rem 0.5rem;
+      font-size: 0.5rem;
+      height: 0.875rem;
+      line-height: 0.875rem;
+      letter-spacing: 0.008rem;
+      border-radius: 0.625rem;
+    }
+  }
+  
+  &.capsules-managed-circle{
+    font-weight: normal;
+    .icon{
+      transform: translateY(-12%);
+    }
+    &.large{
+      padding: 0rem 0.5rem;
+      font-size: 0.75rem;
+      height: 1.25rem;
+      line-height: 1.25rem;
+      border-radius: 0.625rem;
+    }
+    &.medium{
+      padding: 0rem 0.5rem;
+      font-size: 0.625rem;
+      height: 1.125rem;
+      line-height: 1.125rem;
+      border-radius: 0.625rem;
+    }
+    &.small{
+      padding: 0rem 0.5rem;
+      font-size: 0.5rem;
+      height: 0.875rem;
+      line-height: 0.875rem;
+      border-radius: 0.625rem;
+    }
+    &.special-offer{
+      padding: 0rem 0.75rem;
+      height: 2rem;
+      line-height: 2rem;
+      font-size: 0.875rem;
+      font-weight: bold;
+      letter-spacing: 0.025rem;
+      border-radius: 6.25rem;
+    }
+  }
+
+  &.capsules-pastel-circle{
+    &.extra-large{
+      padding: 0rem 0.5rem;
+      font-size: 0.875rem;
+      height: 1.375rem;
+      line-height: 1.375rem;
+      border-radius: 0.625rem;
+      letter-spacing: 0.031rem;
+    }
+    &.large{
+      padding: 0rem 0.5rem;
+      font-size: 0.75rem;
+      height: 1.375rem;
+      line-height: 1.375rem;
+      border-radius: 0.625rem;
+      letter-spacing: 0.027rem;
+    }
+    &.medium{
+      padding: 0rem 0.5rem;
+      font-size: 0.625rem;
+      height: 1.125rem;
+      line-height: 1.125rem;
+      border-radius: 0.625rem;
+    }
+    &.small{
+      padding: 0rem 0.5rem;
+      font-size: 0.5rem;
+      height: 0.875rem;
+      line-height: 0.875rem;
+      border-radius: 0.625rem;
+      letter-spacing: 0.008rem;
+    }
+  }
+    &.radius-tr-bl{
+      border-radius: 0 0.25rem 0 0.5rem;
+    }
+    &.radius-bl-br{
+      border-radius: 0 0 0.25rem 0.25rem;
+    }
+    &.radius-17{
+      border-radius: 1.063rem;
+    }
+    &.radius-4{
+      border-radius: .25rem !important;
+    }
+}
